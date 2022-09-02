@@ -1,0 +1,78 @@
+:root {
+    --primary: #3acbf7
+}
+
+.btn {
+    padding: 8px 30px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #58bd88;
+    color: #58bd88;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #fff;
+}
+
+.btn:hover {
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    background-color: #81d7a9;
+    color: #fefefe;
+}
+
+.btn--primary {
+    background-color: #fff;
+}
+
+.btn--outline {
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+}
+
+.btn--medium {
+    padding: 8px 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.btn--large {
+    padding: 8px 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.btn--signup {
+    background-color: #14a458;
+    color: #fff;
+}

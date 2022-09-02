@@ -1,0 +1,59 @@
+header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    background-color: #fefefe;
+    justify-content: space-evenly;
+    height: 66.5px;
+    align-items: center;
+    border-bottom: 3px solid #fa883a;
+}
+header .brand {
+    width: 15%;
+}
+
+header .brand .logo {
+    width: 120px;
+    position: absolute;
+    left: 4.7%;
+    bottom: 15px;
+}
+
+.nav-menu {
+    position: absolute;
+    left: 18%;
+    bottom: 2px;
+    display: flex;
+    width: 31%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.05em;
+    font-weight: 800;
+}
+
+.nav-link {
+    padding: 10px 15px;
+    color: #8d7575;
+    
+}
+
+.nav-link:active {
+    color: #ffffff;
+    background-color: #0da472;
+}
+
+.nav-link:hover {
+    border: 1px solid #0da472;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.button  {
+    display: flex;
+    position: absolute;
+    right: 80px;
+    gap: 20px;
+}
